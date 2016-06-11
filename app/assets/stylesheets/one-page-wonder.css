@@ -16,17 +16,17 @@
 }
 
 .headline {
-    padding: 200px 0 300px 0;
+    padding: 100px 0 200px 0;
     color: #444;
     background: #aed2e8;
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 150px;
 }
 
 .headline h2 {
-    font-size: 60px;
+    font-size: 72px;
 }
 
 .featurette-divider {
@@ -57,9 +57,9 @@ footer {
   margin: 0;
   padding-left: 50px;
   padding-top: 15px;
+  padding-bottom: 10px;
   color: #aed2e8;
   background: #444;
-  height: 50px;
 }
 
 .navbar {
@@ -91,6 +91,9 @@ footer {
     .featurette-heading {
         font-size: 35px;
     }
+    .bike_image {
+      width: 400px;
+    }
 }
 
 @media(max-width:991px) {
@@ -121,12 +124,15 @@ footer {
     .featurette-heading {
         font-size: 30px;
     }
+    .bike_image {
+      width: 300px;
+    }
+
 }
 
 @media(max-width:768px) {
     .container {
         margin: 0 15px;
-        background: #ff7 no-repeat center center scroll;
     }
 
     .featurette-divider {
@@ -149,6 +155,9 @@ footer {
 
     .featurette-divider {
         margin: 30px 0;
+    }
+    .bike_image {
+      width: 230px;
     }
 }
 
