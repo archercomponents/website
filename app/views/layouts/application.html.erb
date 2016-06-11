@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "My Application" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "My Application" %>">
+    <title><%= content_for?(:title) ? yield(:title) : "Archer Components" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Archer Components" %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
   <body>
     <header>
-      <%= render 'layouts/navigation' unless current_page?(root_path) %>
+      <% if false %><%= render 'layouts/navigation' unless current_page?(root_path) %><% end %>
     </header>
       <%= render 'layouts/messages' %>
       <%= yield %>

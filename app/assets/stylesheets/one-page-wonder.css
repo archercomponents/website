@@ -8,7 +8,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: #ff7 no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -16,19 +16,17 @@
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 200px 0 300px 0;
+    color: #444;
+    background: #aed2e8;
 }
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
 }
 
 .headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-size: 60px;
 }
 
 .featurette-divider {
@@ -52,7 +50,21 @@
 }
 
 footer {
-    margin: 50px 0;
+    margin: 0;
+    background: #444;
+}
+.bottom-box {
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 15px;
+  color: #aed2e8;
+  background: #444;
+  height: 50px;
+}
+
+.navbar {
+  background: #444;
+
 }
 
 @media(max-width:1200px) {
@@ -114,6 +126,7 @@ footer {
 @media(max-width:768px) {
     .container {
         margin: 0 15px;
+        background: #ff7 no-repeat center center scroll;
     }
 
     .featurette-divider {
