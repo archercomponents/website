@@ -1,7 +1,7 @@
 Rails Bootstrap
 ================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Deployed on Heroku - commits to master branch trigger deploy hook.
 
 This application requires:
 
